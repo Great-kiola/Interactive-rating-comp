@@ -42,6 +42,9 @@ Users should be able to:
 - Complete the javascript.
 - Make the page responsive on mobile. 
 
+## Acknowledgments
+
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 ## Author
 
@@ -61,6 +64,3 @@ Users should be able to:
 
 </div>
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
