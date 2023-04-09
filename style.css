@@ -1,5 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800;900&display=swap');
 
+*{ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body{
+  font-family: 'Overpass', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.mainContainer{
+
+  color: white;
+}
+
+.submitBtn{
+  width: 50%;
+  padding: 20px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  
+}
 
 .hide {
   display: none;
