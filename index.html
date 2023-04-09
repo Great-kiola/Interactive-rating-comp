@@ -14,7 +14,7 @@
 <body>
   <main>
     <div class="mainContainer ">
-      <div class="container hide">
+      <div class="container">
         <img class="star" src= "./images/icon-star.svg" alt="#" /> 
       
         <h1 class="pad">How did we do?</h1>
@@ -24,34 +24,34 @@
         </p>
       
         <div class="ratings pad">
-          <div class="rate rate1">
+          <div id="no1" class="rate rate1">
             1
           </div>
-          <div class="rate rate2">
+          <div id="no2" class="rate rate2">
             2
           </div>
-          <div class="rate rate3">
+          <div id="no3" class="rate rate3">
             3
           </div>
-          <div class="rate rate4">
+          <div id="no4" class="rate rate4">
             4
           </div>
-          <div class="rate rate5">
+          <div id="no5" class="rate rate5">
             5
           </div>
         </div>
       
-        <button class="submitBtn">Submit</button>
+        <button id="submit" class="submitBtn">Submit</button>
       </div>
 
-      <div class="thankYou">
+      <div id="thanks" class="thankYou hide">
         <img class="svg" src="/images/illustration-thank-you.svg" alt="#" />
 
         <p class="myPad different">
-          You selected <span id="span"> ????? </span> out of 5
+          You selected <span id="rating"></span> out of 5
         </p> 
   
-        <h1 class="myPad"> Thank you!</h1>
+        <h1 class="myPad "> Thank you!</h1>
   
         <p class="myPad para" >We appreciate you taking the time to give a rating. If you ever need more support, 
           don’t hesitate to get in touch!
@@ -65,8 +65,8 @@
 
   
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.frontendmentor.io/profile/Great-kiola">Kilaso Olabode</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> ||
+    Coded by <a href="https://www.frontendmentor.io/profile/Great-kiola">Kilaso Olabode</a>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
