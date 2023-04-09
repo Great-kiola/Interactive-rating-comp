@@ -1,6 +1,9 @@
 
 
 
+.hide {
+  display: none;
+}
 
 .attribution {
   font-size: 11px;
