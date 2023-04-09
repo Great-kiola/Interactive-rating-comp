@@ -16,18 +16,112 @@ body{
   background-color: hsl(216, 12%, 8%);
 }
 
-.mainContainer{
+h1{
+  font-size: 1.6rem;
+}
 
+.mainContainer{
   color: white;
+  background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 12%));
+  padding: 35px;
+  border-radius: 20px;
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 430px;
+}
+
+.pad{
+  margin: 7px;
+}
+
+p{
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+}
+
+.ratings{
+  display: flex;
+  justify-content: space-between;
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 30px;
+}
+
+.rate{
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 55px;
+  border-radius: 100%;
+  font-weight: 600;
+}
+
+.rate:hover{
+  background-color:hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
 }
 
 .submitBtn{
-  width: 50%;
+  width: 100%;
   padding: 20px;
   border-radius: 30px;
   text-transform: uppercase;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-size: medium;
+  border: none;
   font-weight: 600;
-  
+
+}
+
+.submitBtn:hover{
+  cursor: pointer;
+  background-color: white;
+  color:hsl(25, 97%, 53%);
+}
+
+.star{
+  width: 65px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 20px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.myPad{
+  margin: -20px auto;
+}
+
+.para{
+  text-align: center;
+  line-height: 25px;
+}
+
+.different{
+  color: hsl(25, 60%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  padding: 10px 23px;
+  border-radius: 30px;
+
+}
+
+.svg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thankYou{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vh;
 }
 
 .hide {
@@ -35,8 +129,9 @@ body{
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.9rem;
   text-align: center;
+  color: white;
 }
 
 .attribution a {
