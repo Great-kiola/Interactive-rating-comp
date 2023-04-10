@@ -16,6 +16,10 @@ body {
   background-color: hsl(216, 12%, 8%);
 }
 
+.mode{
+  background-color: wheat;
+}
+
 h1 {
   font-size: 1.6rem;
 }

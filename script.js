@@ -15,3 +15,9 @@ myRate.forEach((rate) => {
         rateBox.innerHTML = rate.innerHTML;
     });
 })
+
+
+$("#ChangeMode").click(function(e) {
+    e.preventDefault();
+    $("#changeColor").toggleClass('mode');
+})
