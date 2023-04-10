@@ -31,6 +31,6 @@ $(".fa").click(function(e) {
     $("#my-canvas").addClass('visible');
 })
 
-var confettiSettings = { target: 'my-canvas' };
-var confetti = new ConfettiGenerator(confettiSettings);
+let confettiSettings = { target: 'my-canvas' };
+let confetti = new ConfettiGenerator(confettiSettings);
 confetti.render();
