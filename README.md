@@ -19,12 +19,10 @@ Users should be able to:
 </a>
 
 ## Links
-
 - Solution URL: [Solution URL](https://github.com/Great-kiola/Interactive-rating-comp)
 - Live Site URL: [Live site URL](https://your-live-site-url.com)
 
 ## Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -43,13 +41,19 @@ Users should be able to:
 - Make the page responsive on mobile. 
 
 ## Features
-- Added a confetti pop when user clicks on the submit button : This was made possible with the help of [Youtube tutorial](https://www.youtube.com/watch?v=D8D9AvsowbY) for how to use the confetti popper & [GitHub url](https://github.com/Agezao/confetti-js) for the confetti generator.
+- Added a confetti pop when user clicks on the submit button 
 
 - I also added a simple easter egg dark mode feature that changes color of the page when its clicked
 
 ## Acknowledgments
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+## Helpful Resources
+- [Youtube tutorial](https://www.youtube.com/watch?v=D8D9AvsowbY) for how to use the confetti popper.
+- [GitHub url](https://github.com/Agezao/confetti-js) for the confetti generator.
+- [Font Awesome](https://fontawesome.com/search) - for some of the cleanest icons i've seen.
+- Frontend mentor slack channel - for tips and guides.
 
 ## Author
 
