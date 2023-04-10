@@ -6,52 +6,49 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
   <title>Frontend Mentor | Interactive rating component</title>
 
 
 </head>
-<body>
+<body id="changeColor">
   <main>
-    <div class="mainContainer ">
+    <div class="mainContainer">
       <div class="container">
-        <img class="star" src= "./images/icon-star.svg" alt="#" /> 
+        <img id="ChangeMode" class="star" src= "./images/icon-star.svg" alt="#" /> 
       
         <h1 class="pad">How did we do?</h1>
         
         <p class="pad">Please let us know how we did with your support request. All feedback is appreciated 
           to help us improve our offering!
         </p>
+
+        <ul class="ratings">
+          <li><button class="btn rate">1</button></li>
+          <li><button class="btn rate">2</button></li>
+          <li><button class="btn rate">3</button></li>
+          <li><button class="btn rate">4</button></li>
+          <li><button class="btn rate">5</button></li>
+        </ul>
       
-        <div class="ratings pad">
-          <div id="no1" class="rate rate1">
-            1
-          </div>
-          <div id="no2" class="rate rate2">
-            2
-          </div>
-          <div id="no3" class="rate rate3">
-            3
-          </div>
-          <div id="no4" class="rate rate4">
-            4
-          </div>
-          <div id="no5" class="rate rate5">
-            5
-          </div>
-        </div>
       
         <button id="submit" class="submitBtn">Submit</button>
+
       </div>
 
       <div id="thanks" class="thankYou hide">
+        <div class="icon">
+          <i class="fa fa-solid fa-cog fa-spin" style="--fa-animation-duration: 15s;"></i>
+        </div>
+
         <img class="svg" src="/images/illustration-thank-you.svg" alt="#" />
 
         <p class="myPad different">
           You selected <span id="rating"></span> out of 5
         </p> 
   
-        <h1 class="myPad "> Thank you!</h1>
+        <h1 class="myPad"> Thank you!</h1>
   
         <p class="myPad para" >We appreciate you taking the time to give a rating. If you ever need more support, 
           don’t hesitate to get in touch!
@@ -63,13 +60,20 @@
 
   </main>
 
+  <canvas id="my-canvas" class="visible"></canvas>
+
   
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> ||
     Coded by <a href="https://www.frontendmentor.io/profile/Great-kiola">Kilaso Olabode</a>
   </footer>
 
+      <!-- Confetti -->
+  <script src="index.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
   <script src="script.js"></script>
+
+
 </body>
 </html>

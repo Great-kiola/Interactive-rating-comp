@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800;900&display=swap");
 
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightGrey: hsl(217, 12%, 63%);
+  --mediumGrey: hsl(216, 12%, 54%);
+  --DarkBlue: hsl(213, 19%, 18%);
+  --veryDarkBlue: hsl(216, 12%, 8%);
+  --orange: hsl(25, 97%, 53%);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -14,6 +23,10 @@ body {
   height: 100vh;
   flex-direction: column;
   background-color: hsl(216, 12%, 8%);
+}
+
+.mode {
+  background-color: wheat;
 }
 
 h1 {
@@ -50,7 +63,7 @@ p {
 }
 
 .rate {
-  background-color: hsl(213, 19%, 18%);
+  background-color: var(--DarkBlue);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,6 +71,20 @@ p {
   width: 55px;
   border-radius: 100%;
   font-weight: 600;
+  color: var(--lightGrey);
+}
+
+li {
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  border: none;
+}
+
+.btn {
+  border: none;
 }
 
 .rate:hover {
@@ -66,8 +93,26 @@ p {
   cursor: pointer;
 }
 
-.rate :focus{
-  background-color: yellow;
+.rate:focus {
+  background-color: var(--lightGrey);
+  color: var(--DarkBlue);
+}
+
+.fa {
+  background-color: var(--DarkBlue);
+  width: 45px;
+  height: 45px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  color: var(--lightGrey);
+  cursor: pointer;
+}
+
+.icon{
+  margin-left: -250px;
 }
 
 .submitBtn {
@@ -88,7 +133,6 @@ p {
   color: hsl(25, 97%, 53%);
 }
 
-
 .star {
   width: 65px;
   background-color: hsl(213, 19%, 18%);
@@ -97,13 +141,9 @@ p {
   margin-bottom: 20px;
 }
 
-.myPad {
-  margin: -20px auto;
-}
-
 .para {
   text-align: center;
-  line-height: 25px;
+  line-height: 22px;
 }
 
 .different {
@@ -111,6 +151,7 @@ p {
   background-color: hsl(213, 19%, 18%);
   padding: 10px 23px;
   border-radius: 30px;
+  margin-bottom: 10px;
 }
 
 .svg {
@@ -119,14 +160,26 @@ p {
   justify-content: center;
 }
 
-
-
 .thankYou {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   height: 50vh;
+}
+
+#my-canvas{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10000;
+  pointer-events: none !important;
+}
+
+.visible{
+  visibility: hidden;
 }
 
 .hide {
