@@ -21,3 +21,9 @@ $("#ChangeMode").click(function(e) {
     e.preventDefault();
     $("#changeColor").toggleClass('mode');
 })
+
+$("#back").click(function(e) {
+    e.preventDefault();
+    $(".container").removeClass('hide');
+    $("#thanks").addClass('hide');
+})

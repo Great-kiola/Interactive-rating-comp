@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800;900&display=swap");
 
-
 :root {
   --white: hsl(0, 0%, 100%);
   --lightGrey: hsl(217, 12%, 63%);
   --mediumGrey: hsl(216, 12%, 54%);
   --DarkBlue: hsl(213, 19%, 18%);
   --veryDarkBlue: hsl(216, 12%, 8%);
+  --orange: hsl(25, 97%, 53%);
 }
 
 * {
@@ -25,7 +25,7 @@ body {
   background-color: hsl(216, 12%, 8%);
 }
 
-.mode{
+.mode {
   background-color: wheat;
 }
 
@@ -71,14 +71,19 @@ p {
   width: 55px;
   border-radius: 100%;
   font-weight: 600;
+  color: var(--lightGrey);
 }
 
-li{
+li {
   border: none;
 }
 
-ul{
+ul {
   list-style-type: none;
+  border: none;
+}
+
+.btn {
   border: none;
 }
 
@@ -88,8 +93,26 @@ ul{
   cursor: pointer;
 }
 
-.rate:focus{
+.rate:focus {
   background-color: var(--lightGrey);
+  color: var(--DarkBlue);
+}
+
+.fa {
+  background-color: var(--DarkBlue);
+  width: 45px;
+  height: 45px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  color: var(--lightGrey);
+  cursor: pointer;
+}
+
+.icon{
+  margin-left: -250px;
 }
 
 .submitBtn {
@@ -110,7 +133,6 @@ ul{
   color: hsl(25, 97%, 53%);
 }
 
-
 .star {
   width: 65px;
   background-color: hsl(213, 19%, 18%);
@@ -119,13 +141,9 @@ ul{
   margin-bottom: 20px;
 }
 
-.myPad {
-  margin: -20px auto;
-}
-
 .para {
   text-align: center;
-  line-height: 25px;
+  line-height: 22px;
 }
 
 .different {
@@ -133,6 +151,7 @@ ul{
   background-color: hsl(213, 19%, 18%);
   padding: 10px 23px;
   border-radius: 30px;
+  margin-bottom: 10px;
 }
 
 .svg {
@@ -140,8 +159,6 @@ ul{
   align-items: center;
   justify-content: center;
 }
-
-
 
 .thankYou {
   display: flex;
