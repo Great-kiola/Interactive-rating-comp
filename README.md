@@ -34,12 +34,18 @@ Users should be able to:
 ## What I learned
 
 - I learnt how to use javascript to validate forms and create a different type of class.
+- When i completed the project i tried to add a confetti to the project as a side task.
 
 
 ## Continued development
 
-- Complete the javascript.
+- Complete the javascript. 🌱🌱🌱
 - Make the page responsive on mobile. 
+
+## Features
+- Added a confetti pop when user clicks on the submit button : This was made possible with the help of [Youtube tutorial](https://www.youtube.com/watch?v=D8D9AvsowbY) for how to use the confetti popper & [GitHub url](https://github.com/Agezao/confetti-js) for the confetti generator.
+
+- I also added a simple easter egg dark mode feature that changes color of the page when its clicked
 
 ## Acknowledgments
 
