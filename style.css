@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800;900&display=swap");
 
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightGrey: hsl(217, 12%, 63%);
+  --mediumGrey: hsl(216, 12%, 54%);
+  --DarkBlue: hsl(213, 19%, 18%);
+  --veryDarkBlue: hsl(216, 12%, 8%);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -54,7 +63,7 @@ p {
 }
 
 .rate {
-  background-color: hsl(213, 19%, 18%);
+  background-color: var(--DarkBlue);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,14 +73,23 @@ p {
   font-weight: 600;
 }
 
+li{
+  border: none;
+}
+
+ul{
+  list-style-type: none;
+  border: none;
+}
+
 .rate:hover {
   background-color: hsl(25, 97%, 53%);
   color: white;
   cursor: pointer;
 }
 
-.rate :focus{
-  background-color: yellow;
+.rate:focus{
+  background-color: var(--lightGrey);
 }
 
 .submitBtn {
